@@ -3,8 +3,8 @@ default: &default
 
 development:
   <<: *default
-  database: rails-template-01-development
+  database: rails-jquery-messages-development
 
 test:
   <<: *default
-  database: rails-template-01-test
+  database: rails-jquery-messages-test
